@@ -9,14 +9,29 @@
 
 ##### 安装依赖
 - 安装NPM依赖：`npm install`
+```
+npm install
+```
 
 ##### 开发环境
 - 启动项目：`npm run dev`
 - 浏览器预览：__localhost:8002__
+```
+npm run dev
+```
 
 
 ##### 生产环境
 - 启动项目打包：`npm run build`
+```
+npm run build
+```
+
+##### 发布github pages
+```
+git subtree push --prefix=dist origin gh-pages
+```
 
 #### 项目预览
-[预览网址](https://kcshan.github.io/vue-webpack-todo/dist/index.html)
+[预览网址](https://kcshan.github.io/vue-webpack-todo/)
+
